@@ -32,7 +32,7 @@ To use this **Responsive 3 Cards Transparent Pricing Table** in your project, vi
 
 ## Video Preview
 
-[![Watch the video](https://img.youtube.com/vi/F60WcPtQndI/0.jpg)](https://www.youtube.com/watch?v=F60WcPtQndI)
+[![Watch the video](https://img.youtube.com/vi/q1Ojj2vUuoc/0.jpg)](https://www.youtube.com/watch?v=q1Ojj2vUuoc)
 
 ## Contributing
 
