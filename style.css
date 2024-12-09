@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url("https://static.vecteezy.com/system/resources/previews/032/302/289/large_2x/a-beautiful-house-with-lush-green-lawn-and-trees-ai-generated-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+    padding: 12% 0;
+}
+
+.card {
+    padding: 20px;
+    background: rgba(11, 42, 128, 0.2);
+    border: 1px solid rgba(1, 13, 121, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(153, 49, 49, 0.3);
+}
+
+.card_title {
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing {
+    font-weight: normal;
+    font-size: 96px;
+}
+
+.pricing .small {
+    font-size: 16px;
+}
+
+hr {
+    margin-top: 70px;
+}
+
+.features {
+    margin: 40px 0;
+    list-style-position: inside;
+}
+
+.features li {
+    padding-bottom: 10px;
+}
+
+a.cta_btn {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: rgba(21, 23, 24, 0.7);
+    border-radius: 29px;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: background .3s ease;
+}
+
+a.cta_btn:hover {
+    background: #ff4800;
+}
+.link {
+    position: fixed;
+    background-color: #D12322;
+    padding: 23px 40px;
+    right: -99px;
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .1s ease-in-out;
+}
+
+.link i {
+    padding-left: 7px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    background-color: black;
+}
+@media only screen and (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2%;
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 2%;
+        padding-bottom: 25%;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 30px;
+    }
+
+    .card_title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .pricing {
+        font-size: 52px;
+    }
+
+    hr {
+        margin-top: 50px;
+    }
+
+    a.cta_btn {
+        font-size: 11px;
+    }
+}
